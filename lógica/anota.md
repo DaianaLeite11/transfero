@@ -29,3 +29,8 @@
 - são ordenadas imutaveis
 - não é possível adicionar o remover elementos depois de criada
 - tupla()
+
+## verficar itens:
+
+- para verficar se tem umitem na lista/tupla uso in
+- print(item in lista)

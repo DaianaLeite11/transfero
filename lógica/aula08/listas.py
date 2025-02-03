@@ -34,5 +34,11 @@ print(tamanhos[1])
 print(tamanhos[2])
 print(tamanhos[-1])
 
+# verficar itens:
+
+print("calabresa" in sabores)
+print("existe tamanho grande?", "grande" in tamanhos)
+print(26.9 in daddos_pizza)
+
 
 
