@@ -22,3 +22,17 @@ print(sabores[2])
 print(sabores[3])
 print(sabores[-1])
 
+#tupla
+
+tamanhos = ("pequena", "media", "grande")
+print("tamanhos disponiveis sao: ",tamanhos)
+
+#acessando items da tupla
+
+print(tamanhos[0])
+print(tamanhos[1])
+print(tamanhos[2])
+print(tamanhos[-1])
+
+
+

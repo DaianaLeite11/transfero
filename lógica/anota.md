@@ -23,3 +23,9 @@
 
 - print(lista[posição na lista])
 - para saber o último elemento da lista print(lista[-1])
+
+## Tuplas
+
+- são ordenadas imutaveis
+- não é possível adicionar o remover elementos depois de criada
+- tupla()
