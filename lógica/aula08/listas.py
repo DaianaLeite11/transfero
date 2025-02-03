@@ -13,3 +13,12 @@ print("Os sabores disponiveis sao: ", sabores)
 # remove
 sabores.remove("calabresa")
 print("Os sabores disponiveis sao: ", sabores)
+
+#acessando items da lista
+
+print(sabores[0])
+print(sabores[1])
+print(sabores[2])
+print(sabores[3])
+print(sabores[-1])
+
