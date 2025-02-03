@@ -7,3 +7,9 @@
 - heterogêneo: todos os elementos da lista podem ter tipos diferentes
 - criação de lista-> os itens são separados por virgula
 - termina com ()-> é um método
+
+## Apppend ()
+
+- adiciona um novo valor ao final da lista
+- lista.append(adicione o novo item)
+- adiciona um item por vez
