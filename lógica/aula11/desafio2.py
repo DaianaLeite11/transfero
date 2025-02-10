@@ -17,16 +17,24 @@ Crie um sistema que peça para o usuário digitar uma senha para acessar sua con
 
 '''
 senha = ""
-
-
-
-
-if senha.lower() != "1234":
-    senha = input("Digite sua senha: ")    
-
-elif senha.lower() == "1234":
+tentativa = 3
+while senha.lower() != "1234" and tentativa > 0:
+    senha = input("Digite sua senha: ")
+    if senha.lower() != "1234":
+        print("🚫 Senha incorreta!")
+        tentativa -=1
+        if tentativa == 0:
+            print("🚫 Conta bloqueada!")
+    else:
         print("na conta")
- else:
-        print("erro inesperado")
+
+
+# if senha.lower() != "1234":
+#     senha = input("Digite sua senha: ")    
+
+# elif senha.lower() == "1234":
+#         print("na conta")
+# else:
+#         print("erro inesperado")
 
   
