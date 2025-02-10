@@ -56,3 +56,6 @@ contagem_regressiva(5)
 
 def listar_nomes(nomes):
     for nome in nomes:
+        print(f'👥 Nome: {nome}')
+
+listar_nomes(["William", "Ana", "Bia", "Liz"]) # lista de nomes
