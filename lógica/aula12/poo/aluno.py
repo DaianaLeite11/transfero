@@ -15,3 +15,20 @@ class Aluno:
 
     def situacao(self):
         self.matriculado = False
+    
+    def exibirInfo(self):
+        print(f"Nome do(a) aluno (a) é : {self.nome}")
+        print(f"CPF do(a) aluno (a é): {self.cpf}")
+        print(f"Idade do(a) aluno (a é): {self.idade}")
+        print(f"Matriculado? {self.matriculado}")
+
+a1= Aluno("jose", "123", 22)
+a2 = Aluno("ana", "456", 21)
+
+
+a1.exibirInfo() 
+a2.exibirInfo()
+
+a2.situacao()
+a2.exibirInfo()
+
