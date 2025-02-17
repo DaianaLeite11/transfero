@@ -1,0 +1,22 @@
+h1{
+    color: rebeccapurple;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-family: fantasy;
+
+}
+a{
+    color: plum;
+    background-color: blueviolet;
+    text-decoration:solid;
+    text-align: center;
+    font-size: 15  px;
+    font-family: fantasy;
+}
+img{
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    
+}
