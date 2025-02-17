@@ -8,11 +8,18 @@
 <p></p>-> parágrafos
 <a></a>-> tag link
 <img>-> imagem
+<stong></strong> -> Tag semântica. Indica uma força na palavra/ Frase.
+<em></em> ->Tag semântica. Indica uma enfâse na palavra/ Frase.
+<b></b>-> coloca uma palavra/ Frase em negrito.
+<i></i>-> coloca uma palavra/ Frase em itálico.
+<br>-> Realiza uma quebra de linha
+<hr>-> cria uma linha na horizontal
+<div></div>-> cria um contendo outras tags.
 
 2. Realizando a comunicação do css com o htmal
 - ``CSS externo`` -> é um arquivo separado do html. Possui a extensão .css e é a forma mais recomendado.
 - ``CSS interno`` -> fica no arquivo html e é separado pela tag <style></style>
-- ``CSS  inLine`` - >
+- ``CSS  inLine`` - > é utilizado exatamnete na tag no html. Deve ser usado com cautela.
 
 3. Estilização básica no css
 `color:`irá colocar uma cor no texto
