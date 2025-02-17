@@ -36,3 +36,15 @@
  
  -->  ``git push - u origin main``
  - envia as informações do repositório local para o remoto
+
+ -->  ``git clone``
+ - clona um repositório
+
+ -->  ``git branch``
+ - exibe as branch que foram criadas
+
+  -->  ``git branch nome_da_branch``
+  - cria uma nova branch
+
+-->  ``git checkout nome_da_branch``
+- altera a branch selecionada
