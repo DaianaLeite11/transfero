@@ -1,0 +1,23 @@
+h2{
+    color: red;
+    background-color: yellow;
+}
+
+.minha_h2{
+    color: blue;
+    background-color: black;
+}
+
+h2{
+    color:aqua;
+    background-color: black;
+}
+
+#seletor_p1{
+    color: red;
+    background-color: yellow;
+}
+
+.deixar_verde{
+    background-color: green;
+}
