@@ -1,0 +1,44 @@
+/* 
+==================
+Estilização global
+====================
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+}
+
+p{
+    font-size: 20px;   /* tamano da fonte dos paragrafos de 16 para 20 */
+}
+
+a {
+    text-decoration: none; /*tira qualquer decoração do link*/
+}
+
+img{
+    max-width: 100%; /*evita que o overflow da imagem, a img ocupa 100% do elemento pai*/
+}
+li{
+    list-style: none; /*tira as bolinhas da lista*/
+}
+
+
+.menu{
+    display: flex; /*alinha os elementos na horizontal*/
+    gap: 20px; /*espaco entre os elementos*/
+}
+
+.menu a{
+    background-color: #ffffff;
+    padding: 15px 30px; /*espaco interno, quando utilizamos o ataçho padding com dois valores, o primeiro representa o espaco de cima/baixo e o segundo representa o espaco de esqueda/direita*/
+    border-radius: 4px; /* arredondamento das bordas*/
+    color:black;
+    text-transform: uppercase; /*transforma o texto em maiusculo*/
+}
+
+.menu a:hover{
+    background-color: #ee2211;
+    color: #ffffff;
+}
