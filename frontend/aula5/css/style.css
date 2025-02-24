@@ -59,4 +59,15 @@ Estilização do conteúdo
 .botao{
     background-color: #ee2211;
     color: #ffffff;
+    padding: 15px 30px; 
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.rodape{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 40px;
+    width: 100%; /*faz com que o elemento atual fique 100% do tamnaho do elemento pai (você não está utilizando o display)*/
 }
