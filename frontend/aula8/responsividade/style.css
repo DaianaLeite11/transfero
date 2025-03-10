@@ -1,0 +1,65 @@
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+h1{
+    grid-column: 1/-1;
+
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+/* ## Trabalhando com responsividade */
+
+/* # Quando a tela for menor que 600px */
+
+/* @media(max-width: 600px){
+    div{
+        grid-template-columns: 1fr;
+    }
+
+    h1{
+        background-color: olivedrab;
+        text-align: center;
+    }
+    img{
+        display: none;
+    };
+} */
+
+/* # Quando a tela for maior que 1000px */
+
+@media(min-width: 1000px){
+    div{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+/* # Quando a tela for a partir de 1000px e menor que 500px */
+
+@media(min-width: 1000px) , (max-width: 500px)     {
+
+}
+
+/* # Quando a tela for menor que 700px e maior que 900px */
+@media(min-width: 700px) and (max-width: 900px)  {
+
+}   
+
+@media(width <= 600px), (width>= 1000px){
+    div{
+        grid-template-columns: 1fr;
+    }
+
+    h1{
+        background-color: olivedrab;
+        text-align: center;
+    }
+    img{
+        display: none;
+    };
+} */
