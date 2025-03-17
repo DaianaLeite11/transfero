@@ -11,3 +11,4 @@ Atalhos
 📄 CTRL + ; = Comentar o conteúdo selecionado 
 📄 CTRL + F = Pesquisa o caracter/palavra informado
 📄 ALT + Z = Quebra a linha
+📄 SHIFT + ALT + F = Formata o código
