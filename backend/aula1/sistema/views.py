@@ -1,3 +1,11 @@
 from django.shortcuts import render
 
-# Create your views here.
+# CAqui irão ficar todas a views (controladores) ref ao sistema
+
+def index(request):
+    return render(
+        request, 
+        'sistema/index.html',
+        )
+
+
