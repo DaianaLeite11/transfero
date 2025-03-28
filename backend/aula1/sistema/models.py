@@ -15,6 +15,18 @@ class Usuario(models.Model):
     ativo = models.BooleanField(default=True)
     # foto = 
 
+class Filme(models.Model):
+    nome_do_filme= models.CharField(max_length=100)
+    ano_lancamento = models.IntegerField()
+    estudio = models.CharField(max_length=50)
+    genero = models.CharField(max_length=50)
+    sinopse = models.TextField()
+    data_de_cadastro = models.DateTimeField(default=timezone.now)
+
+class Genero(models.Model):
+    genero = models.CharField(max_length=50)
+    data_de_cadastro = models.DateTimeField(default=timezone.now)
+
 
 
 
