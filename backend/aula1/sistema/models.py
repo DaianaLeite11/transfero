@@ -13,28 +13,31 @@ class Usuario(models.Model):
     endereco = models.CharField(max_length=100)
     data_cadastro = models.DateTimeField(default=timezone.now) #DATA E HORA DO CADASTRO
     ativo = models.BooleanField(default=True)
-    # foto = 
+    imagem = models.ImageField(blank=True, upload_to='imagens/%Y/%m', )
 
-    def _str_(self):
+    def __str__(self):
         return self.nome
+    
+class Genero(models.Model):
+    nome = models.CharField(max_length=50)
+    data_de_cadastro = models.DateTimeField(default=timezone.now)
+
+    def __str__(self):
+        return self.nome
+
 
 class Filme(models.Model):
     nome_do_filme= models.CharField(max_length=100)
     ano_lancamento = models.IntegerField()
     estudio = models.CharField(max_length=50)
-    genero = models.CharField(max_length=50)
+    #genero = models.CharField(max_length=50)
+    genero = models.ForeignKey(Genero, on_delete=models.SET_NULL, null=True, blank=True, )
     sinopse = models.TextField()
     data_de_cadastro = models.DateTimeField(default=timezone.now)
 
-    def _str_(self):
+    def __str__(self):
         return self.nome_do_filme
 
-class Genero(models.Model):
-    nome = models.CharField(max_length=50)
-    data_de_cadastro = models.DateTimeField(default=timezone.now)
-
-    def _str_(self):
-        return self.nome
 
 
 
