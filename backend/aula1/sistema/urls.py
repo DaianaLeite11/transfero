@@ -6,6 +6,8 @@ from sistema import views
 urlpatterns = [
     path('', views.index),
     path('apresentacao/', views.apresentacao),
+    path('listar/', views.listarUsuario),
+    path('listarfilmes/', views.listarFilme),
     
 
 ]
