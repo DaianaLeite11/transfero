@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-br"> <!-- Define o idioma da página como português do Brasil -->
+<html lang="pt-br"> 
 <head>
-    <meta charset="UTF-8"> <!-- Codificação de caracteres -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
-    <title>Cadastro</title> <!-- Título da aba do navegador -->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Cadastro</title> 
 </head>
 <body>
-    <h1>Cadastro de Usuário</h1> <!-- Título principal da página -->
+    <h1>Cadastro de Usuário</h1> 
 
-    <form method="post" > <!-- Formulário envia os dados via método POST -->
+    <form method="post" enctype="multipart/form-data" > <!-- Formulário envia os dados via método POST -->
          {% csrf_token %} <!-- Proteção contra ataques CSRF (obrigatório em forms no Django) -->
 
          {{ form.as_p }} <!-- Renderiza automaticamente os campos do formulário como parágrafos (<p>) -->

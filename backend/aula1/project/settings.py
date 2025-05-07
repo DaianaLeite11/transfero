@@ -107,7 +107,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+
 
 # tupla que redireciona os arquivos estaticos para dentro da pasta base_static
 staticfiles_dirs = [
@@ -115,6 +115,10 @@ staticfiles_dirs = [
 ]
 
 MEDIA_URL = 'media/' # É ONDE FICA OS ARQUIVOS QUE O USUÁRIO IRÁ ENVIAR
+MEDIA_ROOT = BASE_DIR/'media' # um caminho para onde os arquivos de media serão salvos
+
+STATIC_URL = 'static/' # é o endereço onde url inicial onde os estão os arquivos estáticos 
+STATIC_ROOT = BASE_DIR/'static' # um caminho para onde os arquivos estáticos serão salvos
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
