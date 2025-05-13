@@ -12,8 +12,8 @@ def listagem(request):
 def criarFilme(request):
     
     if request.method == 'POST':
-        # Cria um formulário com os dados enviados (texto e imagem)
-        form = FilmeForm(request.POST)
+        # Cria um formulário com os dados enviados (texto )
+        form = FilmeForm(request.POST, request.FILES)
 
         
 
