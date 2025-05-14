@@ -110,15 +110,16 @@ USE_TZ = True
 
 
 # tupla que redireciona os arquivos estaticos para dentro da pasta base_static
-staticfiles_dirs = [
-    BASE_DIR/'base_static',
-]
+STATICFILES_DIRS = (
+    BASE_DIR / 'base_static',
+)
+
 
 MEDIA_URL = 'media/' # É ONDE FICA OS ARQUIVOS QUE O USUÁRIO IRÁ ENVIAR
-MEDIA_ROOT = BASE_DIR/'media' # um caminho para onde os arquivos de media serão salvos
+MEDIA_ROOT = BASE_DIR/ 'media' # um caminho para onde os arquivos de media serão salvos
 
 STATIC_URL = 'static/' # é o endereço onde url inicial onde os estão os arquivos estáticos 
-STATIC_ROOT = BASE_DIR/'static' # um caminho para onde os arquivos estáticos serão salvos
+STATIC_ROOT = BASE_DIR/ 'static' # um caminho para onde os arquivos estáticos serão salvos
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
