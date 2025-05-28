@@ -19,7 +19,28 @@ A **Transfero** é uma fintech brasileira focada em soluções financeiras com b
 
 ## 📂 Estrutura do Projeto
 
-<pre> ```bash 📂 Estrutura do Projeto ├── backend/ │ └── aula1/ │ ├── core/ # Aplicativo principal │ │ ├── migrations/ # Migrações do banco de dados │ │ ├── __init__.py # Inicializador do módulo │ │ ├── admin.py # Configurações do painel administrativo │ │ ├── apps.py # Configurações do aplicativo │ │ ├── models.py # Definição dos modelos de dados │ │ ├── serializers.py # Serializadores para conversão de dados │ │ ├── tests.py # Testes automatizados │ │ └── views.py # Lógica das views da API │ │ │ ├── transfero/ # Diretório do projeto Django │ │ ├── __init__.py # Inicializador do projeto │ │ ├── settings.py # Configurações do projeto │ │ ├── urls.py # Roteamento de URLs │ │ └── wsgi.py # Ponto de entrada WSGI │ │ │ ├── manage.py # Script de gerenciamento do Django │ └── requirements.txt # Dependências do projeto │ └── README.md # Documentação do projeto ``` </pre>
+<pre> ```bash 📂 Estrutura do Projeto
+📦 transfero
+┣ 📂 backend
+┃ ┗ 📂 aula1
+┃ ┃ ┣ 📂 core
+┃ ┃ ┃ ┣ 📂 migrations
+┃ ┃ ┃ ┣ 📄 init.py
+┃ ┃ ┃ ┣ 📄 admin.py
+┃ ┃ ┃ ┣ 📄 apps.py
+┃ ┃ ┃ ┣ 📄 models.py
+┃ ┃ ┃ ┣ 📄 serializers.py
+┃ ┃ ┃ ┣ 📄 tests.py
+┃ ┃ ┃ ┣ 📄 urls.py
+┃ ┃ ┃ ┣ 📄 views.py
+┃ ┃ ┣ 📂 transfero
+┃ ┃ ┃ ┣ 📄 init.py
+┃ ┃ ┃ ┣ 📄 settings.py
+┃ ┃ ┃ ┣ 📄 urls.py
+┃ ┃ ┃ ┣ 📄 wsgi.py
+┃ ┃ ┣ 📄 manage.py
+┃ ┃ ┣ 📄 requirements.txt
+┃ ┃ ┗ 📄 README.md
 
 - **core**: Aplicativo principal que contém os modelos de dados, views, serializadores e URLs.
 - **transfero**: Diretório do projeto Django que contém as configurações principais.
