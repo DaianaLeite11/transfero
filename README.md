@@ -34,14 +34,17 @@ A **Transfero** é uma fintech brasileira focada em soluções financeiras com b
 
   No Windows: ```bash python -m venv venv .\venv\Scripts\activate ``` 
   No macOS/Linux: ```bash python3 -m venv venv source venv/bin/activate ``` 
-  
- ### 3. Instale as dependências ```bash pip install -r requirements.txt ``` 
 
-### 4. Aplique as migrações do banco de dados ```bash python manage.py migrate ``` 
+ ### 3. Instale as dependências 
+ ```bash pip install -r requirements.txt ``` 
 
-### 5. Crie um superusuário para acessar o painel administrativo ```bash python manage.py createsuperuser ``` 
+### 4. Aplique as migrações do banco de dados 
+```bash python manage.py migrate ``` 
 
+### 5. Crie um superusuário para acessar o painel administrativo 
+```bash python manage.py createsuperuser ``` 
 Siga as instruções para definir o nome de usuário, e-mail e senha. 
+
 ### 6. Inicie o servidor de desenvolvimento
    ```bash python manage.py runserver ``` 
 
