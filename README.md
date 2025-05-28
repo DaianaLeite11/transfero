@@ -19,7 +19,7 @@ A **Transfero** é uma fintech brasileira focada em soluções financeiras com b
 
 ## 📂 Estrutura do Projeto
 
-<pre> ```bash 📂 Estrutura do Projeto
+```bash 📂 Estrutura do Projeto
 📦 transfero
 ┣ 📂 backend
 ┃ ┗ 📂 aula1
@@ -44,7 +44,8 @@ A **Transfero** é uma fintech brasileira focada em soluções financeiras com b
 
 - **core**: Aplicativo principal que contém os modelos de dados, views, serializadores e URLs.
 - **transfero**: Diretório do projeto Django que contém as configurações principais.
-- **manage.py**: Script para interagir com o projeto Django (migrações, servidor de desenvolvimento, etc.).<pre>
+- **manage.py**: Script para interagir com o projeto Django (migrações, servidor de desenvolvimento, etc.).
+
 
 ## 📌 Funcionalidades Implementadas
 
