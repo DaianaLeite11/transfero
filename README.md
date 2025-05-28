@@ -50,9 +50,13 @@ Siga as instruções para definir o nome de usuário, e-mail e senha.
 
 O servidor estará rodando em [http://localhost:8000](http://localhost:8000). 
 
-### 7. Acesse o painel administrativo Para acessar o painel administrativo do Django, vá para [http://localhost:8000/admin](http://localhost:8000/admin) e faça login com o superusuário criado anteriormente. 
+### 7. Acesse o painel administrativo
+ Para acessar o painel administrativo do Django, vá para [http://localhost:8000/admin](http://localhost:8000/admin) e faça login com o superusuário criado anteriormente. 
 
-### 8. Teste a API Você pode testar os endpoints da API utilizando ferramentas como [Postman](https://www.postman.com/) ou [Insomnia](https://insomnia.rest/), fazendo requisições para [http://localhost:8000/api/](http://localhost:8000/api/). 
+### 8. Teste a API
+ Você pode testar os endpoints da API utilizando ferramentas como:
+  [Postman](https://www.postman.com/) 
+  [Insomnia](https://insomnia.rest/), fazendo requisições para [http://localhost:8000/api/](http://localhost:8000/api/). 
 
 ⚠️ **Nota**: Este projeto utiliza o banco de dados SQLite por padrão, que é adequado para desenvolvimento e testes. Para ambientes de produção, considere configurar um banco de dados mais robusto, como PostgreSQL ou MySQL. 
 
