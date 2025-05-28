@@ -1,3 +1,4 @@
+<!--  
 <!DOCTYPE html>
 <html lang="pt-br"> 
 <head>
@@ -10,14 +11,128 @@
     <h2>Estamos aqui para te ajudar com qualquer problema que tenha com nossos serviços.</h2>
 
 
-    <form method="post" enctype="multipart/form-data" > <!-- Formulário envia os dados via método POST -->
-         {% csrf_token %} <!-- Proteção contra ataques CSRF (obrigatório em forms no Django) -->
+    <form method="post" enctype="multipart/form-data" >  Formulário envia os dados via método POST 
+         {% csrf_token %}  Proteção contra ataques CSRF (obrigatório em forms no Django) 
 
-         {{ form.as_p }} <!-- Renderiza automaticamente os campos do formulário como parágrafos (<p>) -->
+         {{ form.as_p }}  Renderiza automaticamente os campos do formulário como parágrafos (<p>) 
 
-        <button type="submit">Cadastrar</button> <!-- Botão de envio do formulário -->
+        <button type="submit">Cadastrar</button>  Botão de envio do formulário 
     </form>
 
     
+</body>
+</html>  -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    
+</head>
+<body>
+    <main class="body-cadastro">
+
+        <div class="body-container">
+            <h1>Seja bem vindo a nossa página de suporte</h1> 
+            <h2>Estamos aqui para te ajudar com qualquer problema que tenha com nossos serviços.</h2>
+            <form action="POST" class="cadastro-form">
+                <label for="name"> Nome</label>
+                <input type="text" placeholder="Digite seu Nome" required>
+                <label for="email"> Email</label>
+                <input type="email" placeholder="Digite seu Email" required>
+                <label for="cpf"> CPF</label>
+                <input type="number" placeholder="Digite seu CPF(apensas números)" required>
+                <label for="sobrenome"> Sobrenome</label>
+                <input type="text" placeholder="Digite seu Sobrenome" required>
+                <label for="telefone"> Telefone</label>
+                <input type="tel" placeholder="Digite seu Telefone">  
+                <label for="senha"> Senha</label>             
+                <input type="password" placeholder="Digite sua senha" required>
+                <input type="checkbox" id="termos" name=" termos" required>
+                <label for="termos">Eu concordo com os termos de uso e a política de privacidade.</label>
+                <button class="btn-primary" type="submit">
+
+                    Cadastrar
+                </button>
+            </form>
+        </div>
+    </main>
+  <style>
+    .body-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    
+    .body-container{
+        
+        justify-content: center;
+        display: flex;
+        flex-direction:  column;  
+        align-items: center;
+        height: 100vh;
+        background-color: #1a1a1d;
+        padding: 48px;
+        /* box-shadow: 0px 0px 20px rgba(176, 6, 16, 1); */
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .body-container h1{
+        margin-bottom: 24px;
+    }
+
+    .body-container h2{
+        margin-bottom: 24px;
+    }
+
+    .cadastro-form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-form input{
+        margin-bottom: 16px;
+        padding: 8px;
+        border-radius: 4px;
+        border: none;
+    }
+
+    .cadastro-form label{
+        margin-bottom: 8px;
+    }
+    . .cadastro-form :placeholder-shown{
+        margin-bottom: 16px;
+        padding: 8px;
+        border-radius: 4px;
+        border: none;
+        background-color: #1a1a1d;  
+        color: #fff;
+    }
+    .cadastro-form input[type="checkbox"]{
+        margin-bottom: 16px;
+    }
+
+    .cadastro-form button{
+        margin-top: 24px;
+        padding: 8px;
+        border-radius: 4px;
+        border: none;
+        background-color: #B00610;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+
+
+  </style> 
+    
+
+
 </body>
 </html>
