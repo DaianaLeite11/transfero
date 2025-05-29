@@ -6,9 +6,6 @@ Bem-vindo ao repositório da primeira aula do módulo de backend do projeto **Tr
 
 Este projeto está em andamento. Atualmente, estamos implementando funcionalidades essenciais para a construção de uma API robusta e segura.
 
-## 🧭 O que é o Transfero?
-
-A **Transfero** é uma fintech brasileira focada em soluções financeiras com blockchain, incluindo a emissão de stablecoins como o BRZ (lastreada em real) e ARZ (lastreada em peso argentino). A empresa busca facilitar o acesso e a utilização de criptomoedas em transações cotidianas, promovendo maior inclusão financeira.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -61,6 +58,25 @@ O servidor estará rodando em [http://localhost:8000](http://localhost:8000).
 ⚠️ **Nota**: Este projeto utiliza o banco de dados SQLite por padrão, que é adequado para desenvolvimento e testes. Para ambientes de produção, considere configurar um banco de dados mais robusto, como PostgreSQL ou MySQL. 
 
 
+## 🧪 Testes
+ Para garantir a qualidade e estabilidade da API, este projeto utiliza o framework de testes integrado do Django, juntamente com o Django REST Framework.
+
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+
+Para adicionar este arquivo ao seu repositório no GitHub:
+
+1. No seu repositório, clique em **Add file** e selecione **Create new file**.
+2. No campo **Name your file**, digite `README.md`.
+3. No editor, cole o conteúdo acima.
+4. Role para baixo e clique em **Commit new file**.
+
+Se precisar de mais alguma personalização ou ajuda, estou à disposição!
+::contentReference[oaicite:0]{index=0}
+
 ## 📂 Estrutura do Projeto
 ```bash
 📦 transfero
@@ -89,24 +105,7 @@ O servidor estará rodando em [http://localhost:8000](http://localhost:8000).
 - **transfero**: Diretório do projeto Django que contém as configurações principais.
 - **manage.py**: Script para interagir com o projeto Django (migrações, servidor de desenvolvimento, etc.).``` 
 
-## 🧪 Testes
- Para garantir a qualidade e estabilidade da API, este projeto utiliza o framework de testes integrado do Django, juntamente com o Django REST Framework.
 
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-
-Para adicionar este arquivo ao seu repositório no GitHub:
-
-1. No seu repositório, clique em **Add file** e selecione **Create new file**.
-2. No campo **Name your file**, digite `README.md`.
-3. No editor, cole o conteúdo acima.
-4. Role para baixo e clique em **Commit new file**.
-
-Se precisar de mais alguma personalização ou ajuda, estou à disposição!
-::contentReference[oaicite:0]{index=0}
  
 
 
