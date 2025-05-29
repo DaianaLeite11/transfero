@@ -89,6 +89,26 @@ O servidor estará rodando em [http://localhost:8000](http://localhost:8000).
 - **transfero**: Diretório do projeto Django que contém as configurações principais.
 - **manage.py**: Script para interagir com o projeto Django (migrações, servidor de desenvolvimento, etc.).``` 
 
+## 🧪 Testes
+ Para garantir a qualidade e estabilidade da API, este projeto utiliza o framework de testes integrado do Django, juntamente com o Django REST Framework.
+
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+
+Para adicionar este arquivo ao seu repositório no GitHub:
+
+1. No seu repositório, clique em **Add file** e selecione **Create new file**.
+2. No campo **Name your file**, digite `README.md`.
+3. No editor, cole o conteúdo acima.
+4. Role para baixo e clique em **Commit new file**.
+
+Se precisar de mais alguma personalização ou ajuda, estou à disposição!
+::contentReference[oaicite:0]{index=0}
+ 
+
 
 
 
